@@ -1,4 +1,4 @@
-// Exercise 1 - Create classes "Que" and "Guest"
+// Create classes "Que" and "Guest"
 
 const minAge = 14;
 const maxAge = 50;
@@ -27,7 +27,7 @@ class Guest {
 
 let guestList = [];
 
-// Exercise 2 - Function that will create instance object from "Que" class and add row into queList table on click on "Add to que" button
+// Function that will create instance object from "Que" class and add row into queList table on click on "Add to que" button
 
 // selectors
 const addToQueBtn = document.getElementById("addToQue");
@@ -80,7 +80,7 @@ const addToQueHandler = () => {
 
   queList.push(que);
 
-  // Exercise 3 - EventListeners on "Accept" and "Decline" buttons
+  // EventListeners on "Accept" and "Decline" buttons
 
   // function when clicking on the accept button
   const onAcceptHandler = () => {
@@ -123,7 +123,7 @@ const addToQueHandler = () => {
     guestListTable.appendChild(trGuest);
     guestList.push(guest);
 
-    // Exercise 4 and 5 - When clicking on edit button in Guest list add input and change the edit button to save button and also save the edited value
+    // When clicking on edit button in Guest list add input and change the edit button to save button and also save the edited value
     let editingMode = true; // flag
 
     // function when clicking on edit button
