@@ -1,0 +1,66 @@
+nav {
+  min-height: 60px;
+}
+
+.navbar-brand img {
+  width: 150px;
+}
+
+.navbar-brand {
+  cursor: pointer;
+}
+
+.search-form {
+  margin: 0 auto;
+  width: 40%;
+  display: none;
+}
+
+#loginPage {
+  width: 50%;
+  margin: 50px auto 0;
+}
+
+#loginPage form {
+  border: 1px solid #eee;
+  background: #eee;
+  border-radius: 3px;
+  padding: 40px;
+  margin-top: 40px;
+}
+section {
+  display: none;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 1.2em;
+  width: 100%;
+}
+
+.logout-btn {
+  display: none;
+}
+
+.movie {
+  float: left;
+  margin: 15px;
+  padding: 15px;
+  border: 3px solid blue;
+  text-align: center;
+  width: 300px;
+  overflow: hidden;
+  height: 330px;
+  cursor: pointer;
+}
+p,
+span {
+  text-align: center;
+  text-overflow: ellipsis;
+}
+.image {
+  width: 124px;
+  height: 186px;
+  margin: auto;
+  text-align: center;
+}

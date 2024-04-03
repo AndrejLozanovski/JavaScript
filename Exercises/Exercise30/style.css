@@ -1,0 +1,66 @@
+.link {
+  border: 1px solid lightgrey;
+  display: block;
+  height: 100%;
+}
+
+.link img { height: 250px; }
+
+.link:hover img {
+  opacity: 0.5;
+}
+
+.link:hover .heart {
+  display: block;
+}
+
+.link:hover {
+  text-decoration: none;
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out;
+}
+
+.title {
+  color: dimgrey;
+}
+
+.title:first-letter {
+  text-transform: uppercase;
+}
+
+.paragraph {
+  color: grey;
+}
+
+.heart {
+  background-color: transparent;
+  color: grey;
+  border: none;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.favorites,
+.add-more {
+  font-size: 25px;
+}
+
+.add-more {
+  cursor: pointer;
+}
+
+.cart {
+  cursor: pointer;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.search-cont {
+  width: 300px;
+}
