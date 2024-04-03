@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>List of Users</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <!-- Latest compiled and minified BOOTSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+
+    <!-- Local CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+
+    <!-- Font-awesome 4.7 cdn -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .pagination {
+        margin-top: 20px;
+      }
+      .pagination span {
+        border: 1px solid black;
+        padding: 5px;
+      }
+      th,
+      td {
+        border: 1px solid lightgrey;
+      }
+      span {
+        cursor: pointer;
+      }
+
+      th {
+        text-align: center !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>List of users:</h1>
+      <table class="table text-center" style="border: 1px solid lightgrey">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Avatar</th>
+          </tr>
+          <tr class="loading-holder">
+            <td colspan="4">Loading ...</td>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div class="pagination"></div>
+    </div>
+    <script src="user-list.js"></script>
+  </body>
+</html>
