@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./background/img.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.typingArea {
+  height: 45vh;
+  padding-top: 50px;
+}
+
+#typeArea {
+  font-size: 35px;
+}
+
+h1 {
+  margin-bottom: 80px;
+}
+
+.keyboard {
+  padding: 30px;
+  background: linear-gradient(rgba(19, 51, 78, 0.3), rgba(19, 51, 78, 0.3));
+  height: 45vh;
+}
+
+button {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  color: white;
+  border: 3px solid black;
+  border-radius: 4px;
+  padding: 10px 40px;
+  margin: 0px;
+}
+
+button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+#space {
+  width: 15%;
+}
