@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise III</title>
+    <!-- Latest compiled and minified Bootstrap 4.4.1 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .link {
+        border: 1px solid grey;
+        display: block;
+      }
+
+      .link:hover img {
+        opacity: 0.5;
+      }
+
+      .link:hover .heart {
+        display: block;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .link:hover {
+        text-decoration: none;
+        transform: scale(1.03);
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .item {
+        margin-bottom: 30px;
+      }
+
+      .title {
+        max-height: 35px;
+        overflow: hidden;
+        color: dimgrey;
+      }
+
+      .title:first-letter {
+        text-transform: uppercase;
+      }
+
+      .paragraf {
+        max-height: 70px;
+        overflow: hidden;
+        color: grey;
+      }
+
+      .item-content {
+        padding: 10px;
+      }
+
+      .heart {
+        background-color: transparent;
+        color: grey;
+        border: none;
+        font-size: 25px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+      }
+
+      .img-content {
+        position: relative;
+      }
+
+      .favorites {
+        font-size: 25px;
+      }
+
+      .colored {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="navbar-header">
+              <a href="#" class="navbar-brand text-light">Name</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-between my-4">
+          <h1>News & Trends</h1>
+          <span class="favorites">
+            <span class="fav-count">0</span>
+            <span class="fav-heart"><i class="fa fa-heart"></i></span>
+          </span>
+        </div>
+      </div>
+      <div class="row" id="list"></div>
+    </div>
+
+    <!-- jQuery library -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Latest Compiled Bootstrap 4.4.1 JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js">
+
+      // card skelet
+      // <div class="col-4 item">
+      //   <a href="google.com" class="link">
+      //     <div class="img-content">
+      //       <img src="img/.jpg">
+      //       <button class="heart">
+      //           <i class="fa fa-heart"></i>
+      //         </button>
+      //     </div>
+      //     <div class="item-content">
+      //       <h2 class="title">title</h2>
+      //       <p class="paragraf">description</p>
+      //     </div>
+      //   </a>
+      // </div>
+    </script>
+  </body>
+</html>
